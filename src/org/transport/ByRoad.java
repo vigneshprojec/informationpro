@@ -6,8 +6,10 @@ public class ByRoad extends Road {
 	}
 	@Override
 	public void bike() {
+		System.out.println("........");
 		System.out.println("bike is not my life");
 	}
+	
 	public static void main(String[] args) {
 		ByRoad b=new ByRoad();
 		b.car();
